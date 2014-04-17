@@ -1,4 +1,5 @@
 require "puma"
+require "rack/handler/puma"
 
 module Puma
   module Rails
